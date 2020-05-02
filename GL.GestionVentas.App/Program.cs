@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GL.GestionVentas.App;
+using System;
 
 namespace GL.GestionVentas.ORM
 {
@@ -6,14 +7,41 @@ namespace GL.GestionVentas.ORM
     {
         static void Main(string[] args)
         {
-            Console.Clear();
-            ShowOptions();
-
+            Init();
         }
 
-        public string GetMessage()
+        public static void Init()
         {
-            return Console.ReadLine();
+            Console.Clear();
+
+            while (true)
+            {
+                ShowOptions();
+
+                switch (GetSelectedOption())
+                {
+                    case SelectedOption.RegisterSale:
+                        break;
+                    case SelectedOption.WatchSales:
+                        break;
+                    case SelectedOption.FindProduct:
+                        break;
+                    case SelectedOption.RegisterClient:
+                        break;
+                    case SelectedOption.Invalid:
+                        Console.WriteLine("Opción inválida");
+                        break;
+                }
+            }
+            
+        }
+
+        public static SelectedOption GetSelectedOption()
+        {
+            int selectedOption = 0;
+            string option = Console.ReadLine();
+            int.TryParse(option, out selectedOption);
+            return (SelectedOption)selectedOption;
         }
 
         public static void ShowOptions()
@@ -26,6 +54,11 @@ namespace GL.GestionVentas.ORM
         }
 
         public static void RegisterSale()
+        {
+
+        }
+
+        public static void RegisterClient()
         {
 
         }
