@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GL.GestionVentas.Business\GL.GestionVentas.Business.csproj" />
     <ProjectReference Include="..\GL.GestionVentas.Entities\GL.GestionVentas.Entities.csproj" />
   </ItemGroup>
 

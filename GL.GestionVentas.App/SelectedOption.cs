@@ -6,10 +6,10 @@ namespace GL.GestionVentas.App
 {
     public enum SelectedOption
     {
-        Invalid = 0,
-        RegisterSale,
+        RegisterSale = 1,
         WatchSales,
         FindProduct,
-        RegisterClient
+        RegisterClient,
+        Exit = 9
     }
 }

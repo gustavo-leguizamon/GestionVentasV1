@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GL.GestionVentas.App", "GL.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GL.GestionVentas.Entities", "GL.GestionVentas.Entities\GL.GestionVentas.Entities.csproj", "{3F376654-903B-4B19-8F4C-87709DB65B06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.GestionVentas.Business", "GL.GestionVentas.Business\GL.GestionVentas.Business.csproj", "{5C58D796-D541-4BFE-BA43-892F75EEE34D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3F376654-903B-4B19-8F4C-87709DB65B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F376654-903B-4B19-8F4C-87709DB65B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F376654-903B-4B19-8F4C-87709DB65B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C58D796-D541-4BFE-BA43-892F75EEE34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C58D796-D541-4BFE-BA43-892F75EEE34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C58D796-D541-4BFE-BA43-892F75EEE34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C58D796-D541-4BFE-BA43-892F75EEE34D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
