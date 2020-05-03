@@ -44,6 +44,7 @@ namespace GL.GestionVentas.ORM
                             ShowDayReport(salesFiltered);
                             break;
                         case SelectedOption.RegisterClient:
+                            new ClientBusiness(context).RegisterClient();
                             break;
                         default:
                             Console.WriteLine("Opción inválida \n\n");
